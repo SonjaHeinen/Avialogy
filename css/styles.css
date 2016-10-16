@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,500,700);
+@import "min-screen.css";
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin: 0px;
+}
+
+header {
+  background: #011c31;
+  height: 300px;
+}
+
+#starHead {
+  float: right;
+  overflow: hidden;
+  height: 240px;
+  margin: 2em;
+  margin-right: 15%;
+}
+
+h1, h2, h3, p, button {
+  font-size: 1em;
+  font-weight: 400;
+  color: #011c31;
+}
+
+h1, button {
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+h3 {
+  font-size: 0.3em;
+  font-weight: 700;
+  line-height: 1.5em;
+  letter-spacing: 0em;
+}
+.introContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2em;
+}
+
+.intro {
+  margin: 1em;
+  text-align: center;
+}
+
+.airsign-p {
+  margin: 2em;
+  text-align: center;
+}
+
+.buttonCon {
+  max-width: 600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#find-sign {
+  border: none;
+  padding: 1em;
+  color: goldenrod;
+  background: #fff;
+}
+
+footer {
+  height: 10em;
+}

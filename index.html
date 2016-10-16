@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Avialogy</title>
+
+    <link rel="shortcut icon" href="img/fav.ico" type="img/x-icon" />
+    <!-- General Styles-->
+    <link rel="stylesheet" type = "text/css" href = "css/styles.css">
+  </head>
+
+  <body>
+    <header>
+      <img id="starHead" src="img/starHead.svg"/>
+    </header>
+
+    <div class="introContainer">
+      <div class="intro">
+        <img src="img/aviaLogo.svg" height="200px"/>
+        <h1>Avialogy</h1>
+      </div>
+
+      <div class="containerCon">
+        <div class="intro">
+          <h2>Free AERONAUTICAL FORTUNES, unique AIR TRAFFIC GAZING.
+            Please remain seated until we reach your destiny.
+          </h2>
+          <img src="img/seated.svg" height="80px"/>
+          <p>
+            Avialogy (Europe) builds on the premise that there is a relationship between primary systems
+      	    of aerial commotion and phenomena in the human world. This study interprets movements
+      	    and relative positions of powered, fixed-wing machines in cruising altitude.
+            Simply put: It's your horoscope based on aircraft, not star constellations.
+          </p>
+          <p>
+          	Avialogy helps navigate through life since 1903.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttonCon">
+      <img id="arrowsOne" src="img/arrow-double.png" height="40px"/><br>
+      <button id="find-sign">find your<br>airsign<h3>*click*</h3></button>
+    </div>
+
+    <!-- Find Airsign, possible result -->
+    <div class="containerCon">
+      <div id="lufthansa" class="airsign" style="display:none">
+        <br>
+        <div><img id="logo" src="img/lufthansa.png"/></div>
+        <div class="airsign-p">
+          <h1>DLH</h1>
+      		<p>The senator of airsigns, with a tendency to form alliances. Citizens located under this airsign know that bigger means more efficient.
+      	  </p>
+        </div>
+      </div>
+
+      <div id="britishairways" class="airsign" style="display:none">
+        <br>
+        <img id="logo" src="img/british.png"/>
+        <div class="airsign-p">
+          <h1>BAW</h1>
+          <p>Some say this is the sky's favourite airsign. And that its tracks are marked by drops of clotted cream. All avialogy can confirm is ...we lost the rest of this sentence.
+          </p>
+        </div>
+      </div>
+
+      <div id="iberia" class="airsign" style="display:none">
+        <br>
+        <img id="logo" src="img/iberia.png"/>
+        <div class="airsign-p">
+          <h1>IBE</h1>
+      	  <p>Citizens affiliated to this airsign are influenced by the B A W ascendant in the departure lounge. They often find there is no destination like home.
+      	  </p>
+        </div>
+      </div>
+
+      <div id="klm" class="airsign" style="display:none">
+        <br>
+        <img id="logo" src="img/klm.png"/>
+        <div class="airsign-p">
+          <h1>KLM</h1>
+      		<p>The oldest airsign of them all. Experience leads K L M signborne citizens to perform with excellence.
+      		</p>
+        </div>
+      </div>
+
+      <div id="airfrance" class="airsign" style="display:none">
+        <br>
+        <img id="logo" src="img/france.png"/>
+        <div class="airsign-p">
+          <h1>AFR</h1>
+      		<p>Determination is in the airsign! You have ambitious short, as well as long term transformation plans. However: experimenting with flying monkeys takes it too far.
+      		</p>
+        </div>
+      </div>
+
+      <div id="aeroflot" class="airsign" style="display:none">
+      	<img id="logo" src="img/aeroflot.png"/>
+        <div class="airsign-p">
+      	  <h1>AFL</h1>
+      		<p>Creativity and individualism are challenging forces. Citizens of this airsign prove, that reinventing yourself gets you places.
+      		</p>
+        </div>
+      </div>
+
+      <div id="norwegian" class="airsign" style="display:none">
+        <br>
+        <img id="logo" src="img/norwegian.png"/>
+        <div class="airsign-p">
+          <h1>NAX</h1>
+      		<p>A strong sense of community characterizes the N A X – everyone is treated equally. Citizens seldom leave their domestic space, yet  restlessly sway within their zone.
+          </p>
+        </div>
+      </div>
+
+      <div id="easyjet" class="airsign" style="display:none">
+        <br>
+        <img id="logo" src="img/easy.png"/>
+        <div class="airsign-p">
+      	  <h1>EZY</h1>
+      		<p>Behind a facade of convenience and averageness, the EZY citizen stands in the navigation lights. If you happen to take them on a date, prepare to pay for drinks and more.
+      		</p>
+        </div>
+      </div>
+
+      <div id="ryanair" class="airsign" style="display:none">
+        <br>
+        <img id="logo" src="img/ryan.png"/>
+        <div class="airsign-p">
+      		<h1>RYR</h1>
+      		<p>With a modest, even frugal approach to existence, citizens of the RYR may best be classified as survival artists. Find them off the beaten runways.
+      		</p>
+        </div>
+      </div>
+    </div>
+
+<!-- Gallery
+    <h2>A I R S I G N S</h2>
+
+  	<div id="air-sign-gallery">
+  	<div>
+  	<img id="logo" src="images/lufthansa.png"/>
+  	<p> D L H </br>
+  		The senator of airsigns, with a tendency to form alliances. Citizens located under this airsign know that bigger means more efficient.
+  		</br>
+  		</br>
+  	</p>
+  	</div>
+
+  	<div>
+  	<img id="logo" src="images/british.png"/>
+  	<p> B A W </br>
+  		Some say this is the sky's favourite airsign. And that its tracks are marked by drops of clotted cream. All avialogy can confirm is ...we lost the rest of this sentence.
+  	</p>
+  	</div>
+
+  	<div>
+  	<img id="logo" src="images/iberia.png"/>
+  	<p> I B E</br>
+  		Citizens affiliated to this airsign are influenced by the B A W ascendant in the departure lounge. They often find there is no destination like home.
+  		</br>
+  		</br>
+  	</p>
+  	</div>
+
+  	<div>
+  	<img id="logo" src="images/klm.png"/>
+  	<p> K L M </br>
+  		The oldest airsign of them all. Experience leads K L M signborne citizens to perform with excellence.
+  		</br>
+  		</br>
+  		</br>
+  	</p>
+  	</div>
+
+  	<div>
+  	<img id="logo" src="images/france.png"/>
+  	<p> A F R </br>
+  		Determination is in the airsign! You have ambitious short, as well as long term transformation plans. However: experimenting with flying monkeys takes it too far.
+  	</p>
+  	</div>
+
+  	<div>
+  	<img id="logo" src="images/aeroflot.png"/>
+  	<p> A F L </br>
+  		Creativity and individualism are challenging forces. Citizens of this airsign prove, that reinventing yourself gets you places.
+  		</br>
+  		</br>
+  	</p>
+  	</div>
+
+  	<div>
+  	<img id="logo" src="images/norwegian.png"/>
+  	<p> N A X </br>
+  		A strong sense of community characterizes the N A X – everyone is treated equally. Citizens seldom leave their domestic space, yet  restlessly sway within their zone.
+  	</p>
+  	</div>
+
+  	<div>
+  	<img id="logo" src="images/easy.png"/>
+  	<p> E Z Y </br>
+  		Behind a facade of convenience and averageness, the E Z Y citizen stands in the navigation lights. If you happen to take them on a date, prepare to pay for drinks and more.
+  	</p>
+  	</div>
+
+  	<div>
+  	<img id="logo" src="images/ryan.png"/>
+  	<p> R Y R </br>
+  		With a modest, even frugal approach to existence, citizens of the R Y R may best be classified as survival artists. Find them off the beaten runways.
+  	</p>
+  	</div>
+
+  	</div>
+-->
+
+    <footer>
+      <div>
+      <p class="intro">Avialogy is brought to you by a group of scientists from the field of Avialogy and
+        <a href="http://yippee.io" target="_blank">SXH</a>. Aeronautical fortunes are based on real-time flight and airline data as well as speculative research.
+        All content copyfree.
+      </p>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/findSign.js" type="text/javascript"></script>
+  </body>
+</html>
