@@ -9,6 +9,7 @@
   <link rel="shortcut icon" href="img/fav.ico" type="img/x-icon" />
   <!-- General Styles-->
   <link rel="stylesheet" type = "text/css" href = "css/styles.css">
+  <link rel="stylesheet" type = "text/css" href = "stock/stock.css">
 </head>
 
 <body>
@@ -216,31 +217,22 @@
   <div class="footer">
     <div class="impressum">
       <h3 class="intro">Avialogy is brought to you by a group of scientists from the field of Avialogy and
-        <a href="http://yippee.io" target="_blank">Sxo</a>. Aeronautical fortunes are based on real-time flight and airline data as well as speculative research.</h3>
+        <a href="http://yippee.io" target="_blank">Sxo</a>. Aeronautical fortunes are based on real-time flight and airline data as well as speculative research. Made on Earth.</h3>
         <h3>© Copyright Sonja Heinen 2015.</h3>
       </div>
   </div>
 </div>
 
+
+  <div id="StockTickerContainer" style="height: 32px; line-height: 32px; overflow: hidden;">
+    <div id='dvStockTicker' class='stockTicker'>
+    </div>
+  </div>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="js/findSign.js" type="text/javascript"></script>
-
-  <script>
-
-    function updateQuotes(data) {
-     for (ticker in quote) {
-      var symbol = quote[ticker];
-
-      document.write('<div>Price of ' + ticker + ' : Close -  ' + symbol['Last'] + '</div>');
-  	document.write('<div>Price of ' + ticker + ' : Low -  ' + symbol['Low'] + '</div>');
-  	document.write('<div>Price of ' + ticker + ' : High -  ' + symbol['High'] + '</div>');
-  	document.write('<div>Price of ' + ticker + ' :Open - ' + symbol['Open'] + '</div>');
-
-     }
-    }
-   </script>
-
-   <script src="http://feeds.financialcontent.com/JSQuote?Ticker=GOOG"></script>
-   
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+  <script src="stock/stock.js" type="text/javascript"></script>
+  <script src="stock/stock-load.js" type="text/javascript"></script>
 </body>
 </html>
