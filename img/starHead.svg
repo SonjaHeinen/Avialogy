@@ -9,7 +9,7 @@
 
 	@keyframes dash {
 	  from {
-	    stroke-dashoffset: 1000;
+	    stroke-dashoffset: 2000;
 	  }
 	  to {
 	    stroke-dashoffset: 2000;
@@ -17,7 +17,7 @@
 	}
 
 	.lineOne, .lineTwo, .lineThree, .lineFour {
-	  fill:none;
+	  fill: none;
 	  stroke:#DAA628;
 	  stroke-miterlimit: 10;
 	  stroke-dasharray: 1000;
@@ -40,8 +40,8 @@
 	}
 
 	@keyframes hideshow {
-	  0% { opacity: 0; }
-	  50% { opacity: 0; }
+	  0% { opacity: 1; }
+	  50% { opacity: 1; }
 	  75% { opacity: 1; }
 	  100% { opacity: 1; }
 	}

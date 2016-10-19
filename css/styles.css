@@ -2,10 +2,10 @@
 @import "min-screen.css";
 
 body {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 300;
-  line-height: 1.5em;
   margin: 0px;
+  padding: 0px;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
 }
 
 header {
@@ -21,25 +21,47 @@ header {
   margin-right: 15%;
 }
 
-h1, h2, h3, p, button {
-  font-size: 1em;
+h1, h4, button {
+  font-size: 28px;
+  letter-spacing: 24px;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  font-weight: 700;
+  text-align: center;
+}
+
+h4 {
+  padding-top: 60px;
+}
+
+h2, p {
+  font-size: 16px;
   font-weight: 400;
+  line-height: 1.5em;
   color: #011c31;
 }
 
-h1, button {
-  letter-spacing: 0.5em;
-  text-transform: uppercase;
-  font-size: 2em;
+h3 {
+  color: #011c31;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0em;
   line-height: 1.5em;
 }
 
-h3 {
-  font-size: 0.3em;
-  font-weight: 700;
-  line-height: 1.5em;
-  letter-spacing: 0em;
+span {
+    color: goldenrod;
 }
+
+.footer h3 {
+  color: white;
+  font-weight: 400;
+}
+
+.footer a {
+  color: goldenrod;
+}
+
 .introContainer {
   display: flex;
   flex-direction: column;
@@ -49,16 +71,13 @@ h3 {
 
 .intro {
   margin: 1em;
-  text-align: center;
 }
 
 .airsign-p {
   margin: 2em;
-  text-align: center;
 }
 
 .buttonCon {
-  max-width: 600px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -67,10 +86,67 @@ h3 {
 #find-sign {
   border: none;
   padding: 1em;
-  color: goldenrod;
   background: #fff;
+  color: goldenrod;
 }
 
-footer {
-  height: 10em;
+.secondHalf {
+  border-top: 20px solid #011c31;
+  margin: 40px 0 0 0;
+}
+
+.galleryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1024px;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallerysign {
+  margin: 40px;
+  width: 200px;
+}
+
+.gallerysign img {
+  margin-left: -10px;
+}
+
+.gallerysign h1 {
+  margin-left: 20px;
+}
+
+.fullAnalysis {
+    margin: 20px 40px 80px 40px;
+}
+
+.arrow {
+  height: 40px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fullAnalysis a {
+  font-size: 28px;
+  letter-spacing: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  font-weight: 700;
+  text-align: center;
+  color: goldenrod;
+}
+
+.footer {
+  padding: 40px;
+  background: #011c31;
+}
+
+.impressum {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
