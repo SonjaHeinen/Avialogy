@@ -11,13 +11,13 @@
 }
 
 .up_green {
-  background: url(https://www.codescratcher.com/wp-content/uploads/2014/11/up.gif) no-repeat left center;
+  background: url(../img/green-arrow.gif) no-repeat left center;
   padding-left: 10px;
   margin-right: 5px;
 }
 
 .down_red {
-  background: url(https://www.codescratcher.com/wp-content/uploads/2014/11/down.gif) no-repeat left center;
+  background: url(../img/red-arrow.gif) no-repeat left center;
   padding-left: 10px;
   margin-right: 5px;
 }
