@@ -1,5 +1,5 @@
 .stock {
-    line-height: 0px;
+    line-height: -20px;
 }
 
 .GreenText {
@@ -11,13 +11,13 @@
 }
 
 .up_green {
-  background: url(//www.codescratcher.com/wp-content/uploads/2014/11/up.gif) no-repeat left center;
+  background: url(https://www.codescratcher.com/wp-content/uploads/2014/11/up.gif) no-repeat left center;
   padding-left: 10px;
   margin-right: 5px;
 }
 
 .down_red {
-  background: url(//www.codescratcher.com/wp-content/uploads/2014/11/down.gif) no-repeat left center;
+  background: url(https://www.codescratcher.com/wp-content/uploads/2014/11/down.gif) no-repeat left center;
   padding-left: 10px;
   margin-right: 5px;
 }
