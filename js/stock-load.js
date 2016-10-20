@@ -13,7 +13,7 @@ $(window).load(function () {
 function LHA() {
     var Symbol = "", CompName = "", Price = "", ChnageInPrice = "", PercentChnageInPrice = "";
     var LHA = "LHA.F";
-    var flickerAPI = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22" + LHA + "%22)&env=store://datatables.org/alltableswithkeys";
+    var flickerAPI = "//query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22" + LHA + "%22)&env=store://datatables.org/alltableswithkeys";
     var StockTickerHTML = "";
 
     var StockTickerXML = $.get(flickerAPI, function(xml) {
@@ -46,7 +46,7 @@ function LHA() {
 function BA() {
     var Symbol = "", CompName = "", Price = "", ChnageInPrice = "", PercentChnageInPrice = "";
     var BA = "IAG.L";
-    var flickerAPI = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22" + BA + "%22)&env=store://datatables.org/alltableswithkeys";
+    var flickerAPI = "//query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22" + BA + "%22)&env=store://datatables.org/alltableswithkeys";
     var StockTickerHTML = "";
 
     var StockTickerXML = $.get(flickerAPI, function(xml) {
@@ -79,7 +79,7 @@ function BA() {
 function IB() {
     var Symbol = "", CompName = "", Price = "", ChnageInPrice = "", PercentChnageInPrice = "";
     var IB = "IAG.L";
-    var flickerAPI = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22" + IB + "%22)&env=store://datatables.org/alltableswithkeys";
+    var flickerAPI = "//query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22" + IB + "%22)&env=store://datatables.org/alltableswithkeys";
     var StockTickerHTML = "";
 
     var StockTickerXML = $.get(flickerAPI, function(xml) {
@@ -112,7 +112,7 @@ function IB() {
 function KLM() {
     var Symbol = "", CompName = "", Price = "", ChnageInPrice = "", PercentChnageInPrice = "";
     var KLM = "KLMR";
-    var flickerAPI = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22" + KLM + "%22)&env=store://datatables.org/alltableswithkeys";
+    var flickerAPI = "//query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22" + KLM + "%22)&env=store://datatables.org/alltableswithkeys";
     var StockTickerHTML = "";
 
     var StockTickerXML = $.get(flickerAPI, function(xml) {
@@ -145,7 +145,7 @@ function KLM() {
 function AFR() {
     var Symbol = "", CompName = "", Price = "", ChnageInPrice = "", PercentChnageInPrice = "";
     var AFR = "AF.PA";
-    var flickerAPI = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22" + AFR + "%22)&env=store://datatables.org/alltableswithkeys";
+    var flickerAPI = "//query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22" + AFR + "%22)&env=store://datatables.org/alltableswithkeys";
     var StockTickerHTML = "";
 
     var StockTickerXML = $.get(flickerAPI, function(xml) {
@@ -178,7 +178,7 @@ function AFR() {
 function AFL() {
     var Symbol = "", CompName = "", Price = "", ChnageInPrice = "", PercentChnageInPrice = "";
     var AFL = "AETG.F";
-    var flickerAPI = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22" + AFL + "%22)&env=store://datatables.org/alltableswithkeys";
+    var flickerAPI = "//query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22" + AFL + "%22)&env=store://datatables.org/alltableswithkeys";
     var StockTickerHTML = "";
 
     var StockTickerXML = $.get(flickerAPI, function(xml) {
@@ -211,7 +211,7 @@ function AFL() {
 function NAX() {
     var Symbol = "", CompName = "", Price = "", ChnageInPrice = "", PercentChnageInPrice = "";
     var NAX = "NCLH";
-    var flickerAPI = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22" + NAX + "%22)&env=store://datatables.org/alltableswithkeys";
+    var flickerAPI = "//query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22" + NAX + "%22)&env=store://datatables.org/alltableswithkeys";
     var StockTickerHTML = "";
 
     var StockTickerXML = $.get(flickerAPI, function(xml) {
@@ -244,7 +244,7 @@ function NAX() {
 function EZY() {
     var Symbol = "", CompName = "", Price = "", ChnageInPrice = "", PercentChnageInPrice = "";
     var EZY = "EZJ.L";
-    var flickerAPI = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22" + EZY + "%22)&env=store://datatables.org/alltableswithkeys";
+    var flickerAPI = "//query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22" + EZY + "%22)&env=store://datatables.org/alltableswithkeys";
     var StockTickerHTML = "";
 
     var StockTickerXML = $.get(flickerAPI, function(xml) {
@@ -277,7 +277,7 @@ function EZY() {
 function RYR() {
     var Symbol = "", CompName = "", Price = "", ChnageInPrice = "", PercentChnageInPrice = "";
     var RYR = "RYAAY";
-    var flickerAPI = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22" + RYR + "%22)&env=store://datatables.org/alltableswithkeys";
+    var flickerAPI = "//query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%20in%20(%22" + RYR + "%22)&env=store://datatables.org/alltableswithkeys";
     var StockTickerHTML = "";
 
     var StockTickerXML = $.get(flickerAPI, function(xml) {
