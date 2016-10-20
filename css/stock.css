@@ -1,0 +1,23 @@
+.stock {
+    line-height: 0px;
+}
+
+.GreenText {
+ color: Green;
+}
+
+.RedText {
+  color: Red;
+}
+
+.up_green {
+  background: url(http://www.codescratcher.com/wp-content/uploads/2014/11/up.gif) no-repeat left center;
+  padding-left: 10px;
+  margin-right: 5px;
+}
+
+.down_red {
+  background: url(http://www.codescratcher.com/wp-content/uploads/2014/11/down.gif) no-repeat left center;
+  padding-left: 10px;
+  margin-right: 5px;
+}

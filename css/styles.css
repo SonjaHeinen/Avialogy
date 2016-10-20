@@ -53,6 +53,10 @@ span {
     color: goldenrod;
 }
 
+.stock p {
+  color: green;
+}
+
 .footer h3 {
   color: white;
   font-weight: 400;
